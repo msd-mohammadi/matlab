@@ -110,3 +110,24 @@ min(a)
 
 
 </details>
+
+<!-- Concatenate -->
+<details>
+<summary> Concatenate </summary>
+
+*   Column Concatenate
+
+```matlab
+a = [1, 1, 1, 1];
+b = [2, 2, 2, 2];
+[a; b]
+```
+
+*   Row Concatenate
+
+```matlab
+[a, b]
+```
+
+
+</details>
