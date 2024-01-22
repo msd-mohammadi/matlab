@@ -78,3 +78,35 @@ mat(1:2,[2,3])
 ```
 
 </details>
+
+<!-- Maximum, minimum -->
+<details>
+<summary> Maximum, minimum </summary>
+
+*   Maximum between an array and a number
+
+```matlab
+a = [1, 7, 9, 5, 10];
+max(a, 11)
+```
+
+*   Maximum value of the array
+
+```matlab
+max(a)
+```
+
+*   Minimum between an array and a number
+
+```matlab
+min(a, 0)
+```
+
+*   Minimum value of the array
+
+```matlab
+min(a)
+```
+
+
+</details>
