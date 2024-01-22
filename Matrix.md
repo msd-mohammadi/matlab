@@ -251,3 +251,52 @@ tD = angle(D)
 ```
 
 </details>
+
+
+
+
+<!-- Not -->
+<details>
+<summary> Not </summary>
+
+```matlab
+a = [1 1 0 0];
+b = [0 0 0 0];
+~(a + b)
+```
+
+</details>
+
+
+<!-- Sign -->
+<details>
+<summary> Sign </summary>
+
+```matlab
+sign(-7), sign(0), sign(3.2)
+```
+
+</details>
+
+
+<!-- Floor -->
+<details>
+<summary> Floor </summary>
+
+```matlab
+floor([-0.3, 2.7, 0.1, -3.6, 8])
+```
+
+</details>
+
+
+<!-- Size -->
+<details>
+<summary> Size </summary>
+
+```matlab
+mat = [1:3; 4:6];
+size(mat), length(mat)
+```
+
+</details>
