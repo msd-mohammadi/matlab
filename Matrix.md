@@ -172,3 +172,82 @@ transpose(mat)
 
 
 </details>
+
+
+<!-- Computational -->
+<details>
+<summary> Computational </summary>
+
+```matlab
+a = [1; 1; 1];
+b = [3; 3; 3];
+```
+
+```matlab
+a + b
+```
+
+```matlab
+a - b
+```
+
+```matlab
+a .* b
+```
+
+```matlab
+a ./ b
+```
+
+```matlab
+5 + a
+```
+
+```matlab
+5 - a
+```
+
+```matlab
+5 .* a
+```
+
+```matlab
+5 ./ a
+```
+
+```matlab
+b.^2
+```
+```matlab
+mat3 = [1, 2];
+mat4 = [1, 2, 3;
+        4, 5, 6];
+```
+
+```matlab
+mat3 * mat4
+```
+
+```matlab
+cos(a)
+```
+
+```matlab
+acos(a./a)
+```
+
+```matlab
+R1 = 5 * exp(1i * [0;0;0;0]);
+R2 = 8 * exp(1i * [0; 1; 2; 3].*pi/180);
+D = R1 - R2;
+```
+
+```matlab
+d = vecnorm(D,2,2)
+```
+
+```matlab
+tD = angle(D)
+```
+
+</details>
