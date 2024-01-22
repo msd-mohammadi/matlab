@@ -58,3 +58,23 @@ one = ones(1,3)
 
 
 </details>
+
+<!-- Accessing -->
+<details>
+<summary> Accessing </summary>
+
+*   Accessing an index
+
+```matlab
+mat = [1 3 5 7;
+       9 11 13 15];
+mat(2,1)
+```
+
+*   Slicing
+
+```matlab
+mat(1:2,[2,3])
+```
+
+</details>
