@@ -1,15 +1,30 @@
-#   Create Structure
+<!-- Create Structure -->
+<details>
+<summary> Create structure </summary>
+
 ```matlab
 empty_str.height = []
 empty_str.weight = []
 ```
 
-#   Repeat
+</details>
+
+
+<!-- Repeat -->
+<details>
+<summary> Repeat </summary>
+
 ```matlab
 teenage_person = repmat(empty_str, 10, 1)
 ```
 
-#   Manipulation
+</details>
+
+
+<!-- Manipulation -->
+<details>
+<summary> Manipulation </summary>
+
 ```matlab
 for i = 1:10
     teenage_person(i).height = randi([100 150]);
@@ -18,7 +33,15 @@ for i = 1:10
 end
 ```
 
-#   Sort
+</details>
+
+
+<!-- Sort -->
+<details>
+<summary> Sort </summary>
+
 ```matlab
 [BMI, sortorder] = sort(BMI)
 ```
+
+</details>
