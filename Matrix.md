@@ -131,3 +131,44 @@ b = [2, 2, 2, 2];
 
 
 </details>
+
+<!-- Manipulation -->
+<details>
+<summary> Manipulation </summary>
+
+*   Reshaping matrix
+
+```matlab
+mat = ["Apple", "Orange", "Banana"]
+reshape(mat, 3,1)
+```
+
+*   Adding array elements
+
+```matlab
+mat(1,4) = "Cherry"
+```
+
+*   Changing array elements
+
+```matlab
+mat(1,2) = "Pear"
+```
+
+*   Transpose 2D matrix
+
+```matlab
+mat = [1 3 5 7];
+transpose(mat)
+```
+
+*   Transpose 1D matrix
+
+```matlab
+mat = [1 3 5 7;
+       9 11 13 15];
+transpose(mat)
+```
+
+
+</details>
